@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+ //            frontend route 
+
+
+
+
+
+
+
+
+
+
+Route::get('/',[FrontController::class,'index'])->name('home');
+Route::get('service',[FrontController::class,'service'])->name('service');
+Route::get('Contact-Us',[FrontController::class,'contact'])->name('contact-us');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
