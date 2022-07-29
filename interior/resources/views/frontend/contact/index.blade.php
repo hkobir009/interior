@@ -1,17 +1,17 @@
 @extends('frontend.layouts.app')
 @section('content')
-<section class="header-bottom">
+<section class="header-bottom contactbanner">
     <div class="header-container">
       <div class="header-brand">
-        <div class="brand-img">
-          <div class="brand-logo">
-            <div class="header-title">Contact Us</div>
-          </div>
-        </div>
+        {{-- <div class="brand-img"> --}}
+          {{-- <div class="brand-logo"> --}}
+            <h1 class="header-title text-center">Contact Us</h1>
+          {{-- </div> --}}
+        {{-- </div> --}}
       </div>
     </div>
   </section>
-  <section class="bottom-nav bg-white py-3">
+  <section class="bottom-nav py-3">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -30,7 +30,11 @@
       
       <div class="row">
         <div class="col-md-8">
-           <h1 class="text-center title my-4">Contact <span>Us </span></h1>
+          <div class="section-title mt-50">
+            <h3>Have any Query?</h3>
+            <h2>Contact Us</h2>
+         </div>
+           {{-- <h1 class="text-center title my-4">Contact <span>Us </span></h1> --}}
           <form>
             <div class="mb-3">
               <input type="text" class="form-control" id="firstname" placeholder="First Name">

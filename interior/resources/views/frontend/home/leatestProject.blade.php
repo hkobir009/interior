@@ -1,5 +1,5 @@
 <section class="product-container pt-5 my-4 bg-white">
-    <div class="container-fluid px-4">
+    <div class="container px-4">
        <div class="col-lg-12">
           <div class="section-title">
              <h3>Latest</h3>

@@ -1,5 +1,5 @@
 <section class="recent-work">
-    <div class="container-fluid">
+    <div class="container">
        <div class="row">
           <div class="col-lg-12">
              <div class="section-title">
@@ -13,7 +13,7 @@
           <div class="owl-carousel carousel1">
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-1.jpg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -27,7 +27,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/inerior-6.jpg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -41,7 +41,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-5.jpeg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -55,7 +55,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-4.jpg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -69,7 +69,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-3.jpeg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -83,7 +83,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-10.jpg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">
@@ -97,7 +97,7 @@
              </div>
              <div>
                 <div class="inner-box">
-                   <a href="#" class="recent-img aos-init aos-animate" data-aos="fade-up">
+                   <a href="{{route('details')}}" class="recent-img aos-init aos-animate" data-aos="fade-up">
                       <div class="recent-img-bg img-fluid img-center" style="background-image: url(img/interior-11.jpg);"></div>
                       <div class="recent-content"></div>
                       <div class="recent-details">

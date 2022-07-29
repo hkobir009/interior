@@ -1,6 +1,6 @@
 <header id="header-container">
-    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar unsticky" id="navbar_top">
-       <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg scrolling-navbar unsticky" id="navbar_top">
+       <div class="container">
           <a class="navbar-brand" href="index.html">Ober
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
                    <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link">Blog</a>
+                   <a class="nav-link" href="{{route('details')}}">Blog</a>
                 </li>
                 <li class="nav-item">
                    <a class="nav-link" href="{{route('contact-us')}}">Contact us</a>

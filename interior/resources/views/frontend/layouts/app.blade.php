@@ -15,6 +15,8 @@
          <link rel="stylesheet" href="{{asset('css/aos.css')}}" />
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
          <link rel="stylesheet" href="{{asset('css/lightcase.min.css')}}">
+         <link rel="stylesheet" href="{{ asset('progressbar/css/jquery.rprogessbar.css') }}">
+
    </head>
    <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
@@ -34,8 +36,13 @@
 <script src="{{asset('js/typed.min.js')}}"></script>
 <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('dist/owl.carousel.min.js')}}"></script>
+<script src="{{asset('counterup/waypoints.min.js')}}"></script>
+  <script src="{{asset('counterup/jquery.counterup.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('parallax/parallax.min.js')}}"></script>
+   <script src="{{asset('progressbar/js/jQuery.rProgressbar.js')}}"></script>
 <script src="{{asset('js/aos.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
+@yield('script')
 <script>
     AOS.init();
 </script>

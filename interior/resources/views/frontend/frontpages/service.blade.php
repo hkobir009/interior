@@ -5,9 +5,7 @@
       <div class="header-brand">
         <div class="brand-img">
           <div class="brand-logo">
-            <a href="#">
-              <img src="img/Concrete Lcda.svg" alt="">
-            </a>
+              <img src="img/bg.jpg" alt="">
           </div>
         </div>
       </div>

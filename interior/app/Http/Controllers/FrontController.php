@@ -17,4 +17,12 @@ class FrontController extends Controller
     public function service(){
         return view('frontend.frontpages.service');
     }
+
+    public function details(){
+        return view('frontend.frontpages.project_details');
+    }
+
+    public function about(){
+        return view('frontend.frontpages.about');
+    }
 }
