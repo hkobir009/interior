@@ -3,7 +3,7 @@
      <div class="row">
        <div class="col-lg-3">
          <div class="footer-logo">
-           <img src="{{asset('img/oberflex-8.svg')}}" alt="">
+          <img src="{{asset('img/logo.png')}}" alt="">
          </div>
          <div class="footer-para">
            <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Veritatis eius quia suscipit officiis mollitia numquam vero. Autem a similique </p>
@@ -62,7 +62,7 @@
    <div class="d-flex justify-content-center text-center mt-5 bottom-footer">
        <div class="col-lg-8">
          <div class="bottom-link">
-           <p>&copy; 2017 quode interactions. all right reserve</p>
+           <p>&copy; 2022 All Rights Reserved by CsdsBd</p>
          </div>
        </div>
      </div>

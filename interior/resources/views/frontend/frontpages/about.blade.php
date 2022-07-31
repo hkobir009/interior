@@ -1,32 +1,31 @@
 @extends('frontend.layouts.app')
 @section('content')
 
-   <section class="header-bottom product">
-    <div class="container">
-      <div class="header-brand">
-        <!-- <div class="brand-img"> -->
-          <!-- <div class="brand-logo"> -->
-            <h1 class="header-title text-center">PROJECT DETAIL</h1>
-          <!-- </div> -->
-        <!-- </div> -->
+<section class="header-bottom contactbanner">
+  <div class="header-container">
+    <div class="header-brand">
+      {{-- <div class="brand-img"> --}}
+        {{-- <div class="brand-logo"> --}}
+          <h1 class="header-title text-center">About Us</h1>
+        {{-- </div> --}}
+      {{-- </div> --}}
+    </div>
+  </div>
+</section>
+<section class="bottom-nav py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="header-link" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">About Us</a></li>
+          </ol>
+        </nav>
       </div>
     </div>
-  </section>
-
-  <section class="bottom-nav py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="header-link" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">PROJECT DETAIL</a></li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
   <section class="aboutus-details">
     <div class="container">
       <div class="row">

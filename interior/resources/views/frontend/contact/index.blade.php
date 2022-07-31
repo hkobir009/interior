@@ -81,7 +81,7 @@
               
             </div>
             <div class="flex-grow-1 ms-3">
-                +880 1725468955
+                +880 17********
             </div>
           </div>
           <div class="d-flex align-items-center">
@@ -90,7 +90,7 @@
               
             </div>
             <div class="flex-grow-1 ms-3">
-               +880 1725468955
+               +880 17********
             </div>
           </div>
         </div>

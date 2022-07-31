@@ -1,28 +1,31 @@
 <header id="header-container">
     <nav class="navbar navbar-expand-lg scrolling-navbar unsticky" id="navbar_top">
        <div class="container">
-          <a class="navbar-brand" href="index.html">Ober
-          </a>
+         <div class="header-logo">
+            <a class="navbar-brand" href="{{route('home')}}">
+              <img src="{{asset('img/logo.png')}}" alt="">
+            </a>
+         </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="justify-content-between collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                   <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
+                   <a class="nav-link " aria-current="page" href="{{route('home')}}">Home</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                    <a class="nav-link" href="product.html">Products</a>
+                </li> --}}
+                <li class="nav-item active">
+                   <a class="nav-link active" href="{{route('service')}}">Service</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="{{route('service')}}">Service</a>
+                   <a class="nav-link" href="{{route('about-us')}}">About Us</a>
                 </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                    <a class="nav-link" href="{{route('details')}}">Blog</a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                    <a class="nav-link" href="{{route('contact-us')}}">Contact us</a>
                 </li>
@@ -33,9 +36,6 @@
                 </li>
                 <li class="nav-item">
                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
-                </li>
-                <li class="nav-item">
-                   <a href="#" class="nav-link"><i class="fa-solid fa-basket-shopping"></i></a>
                 </li>
                 <!--             <li class="nav-item"><a href="#" class="nav-link">
                    <i class="fa-regular fa-folder-closed"></i>

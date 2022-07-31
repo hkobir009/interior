@@ -1,28 +1,42 @@
 @extends('frontend.layouts.app')
 @section('content')
-<section class="header-bottom">
-    <div class="header-container">
-      <div class="header-brand">
-        <div class="brand-img">
-          <div class="brand-logo">
-              <img src="img/bg.jpg" alt="">
-          </div>
-        </div>
+<section class="header-bottom contactbanner">
+  <div class="header-container">
+    <div class="header-brand">
+      {{-- <div class="brand-img"> --}}
+        {{-- <div class="brand-logo"> --}}
+          <h1 class="header-title text-center">Our Service</h1>
+        {{-- </div> --}}
+      {{-- </div> --}}
+    </div>
+  </div>
+</section>
+<section class="bottom-nav py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="header-link" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Service</a></li>
+          </ol>
+        </nav>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   
   <section class="product-container pt-4">
     <div class="container-fluid px-4">
-      <div class="row justify-content-center align-items-center">
+      {{-- <div class="row justify-content-center align-items-center">
         <div class="col-lg-8">
           <h1 class="text-center">Most Popular Design And Projects</h1>
           <div class="bottom-line"></div>
         </div>
-      </div>
+      </div> --}}
       <div class="row my-5">
         <div class="col-lg-12">
-          <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+          <ul class="nav nav-tabs justify-content-center mb-5" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
       </li>

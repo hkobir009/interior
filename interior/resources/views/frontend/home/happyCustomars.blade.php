@@ -3,7 +3,7 @@
        <div class="col-lg-12">
           <div class="section-title">
              <h3>Happy</h3>
-             <h2>Customers</h2>
+             <h2>Clints</h2>
           </div>
           <!-- <h1 class="text-center title">Latest br<span>News </span></h1> -->
        </div>
